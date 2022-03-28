@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RGB & Hex Conversion</title>
+    <link rel="stylesheet" href="cstyle.css" />
+  </head>
+  <body>
+    <h1>
+      HEX & RGB <br />
+      Color Code Conversion
+    </h1>
+    <br />
+    <br />
+    <br />
+    <form>
+      <label for="colours">Choose your color code conversion:</label>
+      <br />
+      <select class="colors_option option1" name="colors_option1">
+        <option value="hex">HEX</option>
+        <option value="rgb">RGB</option>
+      </select>
+      <p>
+        <span class="text1"># </span>
+        <input type="text" class="input1" name="color_input1" value="000000" />
+        <span class="text1_end"></span>
+      </p>
+      <br />
+      <p>To</p>
+      <br />
+      <select class="colors_option option2" name="colors_option2">
+        <option value="hex">HEX</option>
+        <option value="rgb">RGB</option>
+      </select>
+      <p>
+        <span class="text2">rgb (</span>
+        <input
+          type="text"
+          class="input2"
+          name="color_input2"
+          value="255,255,255"
+        />
+        <span class="text1_end"> )</span>
+      </p>
+      <br />
+      <br />
+      <input type="button" value="Convert" class="submit" />
+    </form>
+    <section></section>
+  </body>
+</html>
